@@ -1,1 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <meta name="description" content="Discipline and Yoga - Transform your life through mindful practice">
+  <title>Discipline and Yoga | Transform Your Life</title>
+  <link rel="stylesheet" href="style.css" />
+  <!-- Google Ads: Add your ID later -->
+  <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=AW-XXXXXXXXX"></script> -->
+</head>
+<body>
+  <!-- Navigation -->
+  <nav class="navbar">
+    <div class="container nav-flex">
+      <a href="index.html" class="logo">
+        <span class="logo-icon">🧘</span>
+        <span class="logo-text">Discipline & Yoga</span>
+      </a>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#stats">Impact</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+    </div>
+  </nav>
 
+  <!-- Hero Section -->
+  <header class="hero">
+    <div class="container hero-grid">
+      <div class="hero-content">
+        <h1>Discipline Meets <span class="highlight">Transformation</span></h1>
+        <p>Join a global community dedicated to mindful practice, personal growth, and lasting change through yoga.</p>
+        <a href="#enroll" class="btn-primary">Start Your Journey</a>
+      </div>
+      <div class="hero-image">
+        <img src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?w=600&h=400&fit=crop" alt="Yoga practice" />
+      </div>
+    </div>
+  </header>
+
+  <!-- Stats Section -->
+  <section id="stats" class="stats-section">
+    <div class="container">
+      <div class="stats-grid">
+        <div class="stat-card">
+          <div class="stat-number">1000+</div>
+          <div class="stat-label">People Enrolled</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">50+</div>
+          <div class="stat-label">Cities We Operate</div>
+        </div>
+        <div class="stat-card">
+          <div class="stat-number">1M+</div>
+          <div class="stat-label">Collective Hours on Yoga</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Enrollment Form -->
+  <section id="enroll" class="form-section">
+    <div class="container">
+      <div class="form-card">
+        <h2>Begin Your Transformation</h2>
+        <p>Fill out the form below to receive your personalized yoga journey plan.</p>
+        
+        <form id="enrollment-form" class="enrollment-form" action="Thankyou.html">
+          <div class="form-group">
+            <label for="name">Full Name *</label>
+            <input type="text" id="name" name="name" placeholder="Enter your name" required />
+          </div>
+          
+          <div class="form-group">
+            <label for="phone">Contact Number *</label>
+            <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required pattern="[0-9+\-\s()]{7,20}" />
+          </div>
+          
+          <div class="form-group">
+            <label for="email">Email Address *</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required />
+          </div>
+          
+          <div class="form-group">
+            <label for="city">City *</label>
+            <input type="text" id="city" name="city" placeholder="Enter your city" required />
+          </div>
+          
+          <button type="submit" class="btn-submit">Submit & Get Started</button>
+          <p class="form-note">🔒 Your information is secure. We never share your details.</p>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="about-section">
+    <div class="container about-grid">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1599447421405-0c6f5f5c5c5c?w=500&h=600&fit=crop" alt="Mindful practice" />
+      </div>
+      <div class="about-content">
+        <h2>Our Philosophy</h2>
+        <p>At Discipline and Yoga, we believe transformation happens at the intersection of consistent practice and mindful intention. Our approach combines traditional yoga wisdom with modern lifestyle integration.</p>
+        <p>Whether you're seeking stress relief, physical strength, mental clarity, or spiritual growth, our programs are designed to meet you where you are and guide you forward.</p>
+        <ul class="benefits-list">
+          <li>✓ Personalized practice plans</li>
+          <li>✓ Expert guidance & support</li>
+          <li>✓ Community accountability</li>
+          <li>✓ Flexible scheduling</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h4>Discipline & Yoga</h4>
+        <p>Transform your life through mindful practice.</p>
+      </div>
+      <div class="footer-links">
+        <h4>Quick Links</h4>
+        <a href="index.html">Home</a>
+        <a href="contact.html">Contact</a>
+        <a href="privacy.html">Privacy Policy</a>
+        <a href="terms.html">Terms of Use</a>
+      </div>
+      <div class="footer-contact">
+        <h4>Contact Us</h4>
+        <p>📧 disciplineandyoga@gmail.com</p>
+        <p style="margin-top: 10px; font-size: 0.9rem; line-height: 1.5;">
+          Building Number: 8924<br/>
+          Street Name: Third St<br/>
+          Street Address: City Center<br/>
+          Apartment/Flat: Apt 716<br/>
+          State: AL, City: Phoenix<br/>
+          Post Code: 21278
+        </p>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <p>&copy; <span id="year"></span> Discipline and Yoga. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
